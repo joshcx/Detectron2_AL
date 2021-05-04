@@ -31,7 +31,7 @@
                 --input-path=./data \
                 --input-format=image-dir \
                 --allow-serving-local-files --force \
-                --label-config=extra/config.xml \
+                --label-config=annotating/config.xml \
                 --ml-backends http://localhost:9090
         ```
         And you can start the server via
@@ -40,7 +40,7 @@
         ```
     1. Initialize the model backend server
         ```bash
-        label-studio-ml init labeling/backend_model --script extra/backend_model.py
+        label-studio-ml init labeling/backend_model --script annotating/backend_model.py
         ```
         And similarly, you can start the backend server by
         ```bash

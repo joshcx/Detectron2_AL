@@ -3,9 +3,10 @@
       zoom="true" zoomControl="true" 
       negativeZoom="true"></Image>
   <RectangleLabels name="label" toName="image">
-		<Label value="title" background="green"></Label>
-    <Label value="address" background="yellow"></Label>
-    <Label value="text" background="red"></Label>
-    <Label value="number" background="blue"></Label>
+		<Label value="Text" background="blue"/>
+    <Label value="Title" background="green"/>
+    <Label value="List" background="orange"/>
+    <Label value="Table" background="yellow"/>
+    <Label value="Figure" background="red"/>
   </RectangleLabels>
 </View>

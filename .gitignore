@@ -1,4 +1,8 @@
-# folrder
+# internal repos
+label-studio/
+label-studio-frontend/
+
+# folder
 data
 data/
 credential
