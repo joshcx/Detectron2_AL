@@ -262,7 +262,7 @@ MODEL:
     NAME: SemSegFPNHead
     NORM: GN
     NUM_CLASSES: 54
-  WEIGHTS: https://www.dropbox.com/s/57zjbwv6gh3srry/model_final.pth?dl=1
+  WEIGHTS: /content/Drive/MyDrive/model/mask_rcnn_X_101_32x8d_FPN_3x.pth
 OUTPUT_DIR: ../outputs/publaynet/mask_rcnn_X_101_32x8d_FPN_3x/
 SEED: -1
 SOLVER:
